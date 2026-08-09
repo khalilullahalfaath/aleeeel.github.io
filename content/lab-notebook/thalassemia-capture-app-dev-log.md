@@ -1,9 +1,16 @@
 ---
-title: "Development Log — Peripheral Blood Smear (PBS) Image Acquisition App"
+title: Development Log — Peripheral Blood Smear (PBS) Image Acquisition App
 date: 2026-07-27T09:00:00+07:00
 lastmod: 2026-08-04T18:00:00+07:00
-status: "ongoing"
-tags: ["thalassemia", "computer-vision", "edge-ai", "embedded", "hardware", "debugging", "sdk-integration"]
+status: completed
+tags:
+  - thalassemia
+  - computer-vision
+  - edge-ai
+  - embedded
+  - hardware
+  - debugging
+  - sdk-integration
 ---
 
 **Project:** Thalassemia Capture App (Flask + OpenCV, MiiCam USB microscope camera)
