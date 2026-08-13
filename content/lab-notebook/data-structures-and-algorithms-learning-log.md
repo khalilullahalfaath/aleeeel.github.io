@@ -1,15 +1,20 @@
 ---
 title: Data Structures and Algorithms Learning Log
 date: 2026-08-04T14:46:00.000+07:00
-lastmod: 2026-08-09T21:28:00.000+07:00
+lastmod: 2026-08-14T00:45:00.000+07:00
 status: ongoing
 tags:
   - algorithms
   - data-structures
   - learning
 ---
- 
-This month, August 2026, I intend to re-learn Data Structures and Algorithms from the Grokking Algorithms book. This is mainly because I want to practice my problem-solving abilities and find new hobbies by solving LeetCode problems xD.
+## Study Artefacts
+
+Excalidraw mindmap: <https://excalidraw.com/#json=4TGPy0JuXaoDHeMOjsoIU,0U-VIWL2Q9alZWY5NY2AWg>
+
+## Overview
+
+This month, August 2026, I intend to relearn Data Structures and Algorithms from the Grokking Algorithms book. This is mainly because I want to practice my problem-solving abilities and find new hobbies by solving LeetCode problems xD.
 
 ## August 1st, Saturday
 
@@ -72,5 +77,13 @@ I had been lazing around after my thesis proposal defense (6th August) for two d
 
 * DnC (Divide and Conquer) is maybe the most underrated technique in DSA. It is just simple; however, it can reduce time complexity the most.
 * DnC (and its cousin, decrease-and-conquer) is a recursive approach, but true DnC splits the problem into independent halves, not just peels off one element at a time.
-* I got a nice insight from the book. If we are working with arrays, to solve it using the DnC approach, first think that most of the time, the base case is either that the array is empty or just has one element.
-* Example algorithms that use DnC are binary search, quick sort, and merge sort.
+* I got a nice insight from the book. If we are working with arrays, to solve it using the DnC approach, first think that most of the time, the base case is either that the array is empty or has just one element.
+* Example algorithms that use DnC are binary search, quicksort, and merge sort.
+
+## August 13th, Saturday
+
+I've been postponing this learning project since I have to do my thesis proposal revisions :" Finally, I have some time today to continue this learning journey.
+
+* On August 9th, I only skimmed the quick sort part. So today, I re-read this.
+* I noticed that quicksort isn't as abstract as I imagined before. It's just applying a pivot to divide an array into two subarrays: left (less than pivot) and right (more than pivot.
+* Unlike the DnC I confused it with before (decrease-and-conquer, which just peels off 1 element), quicksort actually splits the array into 2 independent subarrays — though unlike merge sort, the split isn't guaranteed to be even, which is exactly why worst-case behavior depends on pivot choice.
