@@ -10,7 +10,7 @@ tags:
 ---
 ## Study Artefacts
 
-Excalidraw mindmap: <https://excalidraw.com/#json=4TGPy0JuXaoDHeMOjsoIU,0U-VIWL2Q9alZWY5NY2AWg>
+Excalidraw mindmap: [https://excalidraw.com/#json=9peyf5js5-kSwihdWQWRR,iTcxPnsLYjl0Gh5cGyulMw ](https://excalidraw.com/#json=9peyf5js5-kSwihdWQWRR,iTcxPnsLYjl0Gh5cGyulMw) 
 
 ## Overview
 
