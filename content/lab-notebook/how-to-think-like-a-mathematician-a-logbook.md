@@ -7,4 +7,4 @@ tags:
   - reading
   - mathematics
 ---
-This is my second attempt to read this book after failing to do so last year. I wish that, after applying the PACER method from Dr Justin Sung, I could grasp the book's contents.
+This is my second attempt to read this book after failing to do so last year. I wish that, after applying the PACER method from Dr Justin Sung, I could learn from this book with more discipline.
