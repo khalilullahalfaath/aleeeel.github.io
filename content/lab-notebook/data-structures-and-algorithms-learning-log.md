@@ -1,7 +1,7 @@
 ---
 title: Data Structures and Algorithms Learning Log
 date: 2026-08-04T14:46:00.000+07:00
-lastmod: 2026-08-14T00:45:00.000+07:00
+lastmod: 2026-08-15T16:36:00.000+07:00
 status: ongoing
 tags:
   - algorithms
@@ -80,10 +80,20 @@ I had been lazing around after my thesis proposal defense (6th August) for two d
 * I got a nice insight from the book. If we are working with arrays, to solve it using the DnC approach, first think that most of the time, the base case is either that the array is empty or has just one element.
 * Example algorithms that use DnC are binary search, quicksort, and merge sort.
 
-## August 13th, Saturday
+## August 13th, Thursday
 
 I've been postponing this learning project since I have to do my thesis proposal revisions :" Finally, I have some time today to continue this learning journey.
 
 * On August 9th, I only skimmed the quick sort part. So today, I re-read this.
 * I noticed that quicksort isn't as abstract as I imagined before. It's just applying a pivot to divide an array into two subarrays: left (less than pivot) and right (more than pivot.
 * Unlike the DnC I confused it with before (decrease-and-conquer, which just peels off 1 element), quicksort actually splits the array into 2 independent subarrays — though unlike merge sort, the split isn't guaranteed to be even, which is exactly why worst-case behavior depends on pivot choice.
+
+## August 14th, Friday
+
+This time I learnt the fifth chapter from the Grokking Algorithms book.
+
+* I just learnt about hash functions that map strings into numbers. This number is actually used as an array index since reading an array is only O(1) complexity. 
+* To prevent overflow from the array's maximum size, most hash functions use modulo. Refer to that by definition, modulo is x % n, where n is the array size. This returns a number that is always in the range of \[0, n-1] (inclusive).
+* However, even though the array is always initially small (8 bytes), every time it reaches a certain threshold value, it doubles the array size. To calculate the threshold, we use a load factor: item filled / array length (in Python the threshold is around 0.66)
+* Note that they always rehash evertime they resize.
+* When I reimplement the two sums problems, note that always check first the current num exists in results. The key is the difference, while the value is the index
