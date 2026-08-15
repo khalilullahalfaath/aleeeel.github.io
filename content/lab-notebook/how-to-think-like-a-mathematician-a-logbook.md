@@ -1,7 +1,7 @@
 ---
 title: "How to Think Like a Mathematician: a Logbook"
 date: 2026-08-14T00:53:00.000+07:00
-lastmod: 2026-08-14T00:53:00.000+07:00
+lastmod: 2026-08-15T23:55:00.000+07:00
 status: ongoing
 tags:
   - reading
